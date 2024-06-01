@@ -31,7 +31,7 @@ style=phys,
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title{Why is the square root of 2 irrational?}
-\author{Francesco Macrì, \orcidlink{0009-0006-8892-7514}}
+\author{Francesco Macrì \orcidlink{0009-0006-8892-7514}}
 \begin{abstract}
     \dots Based on a classical mathematical proof of the ancient Greeks, this article summarizes what irrational numbers are. \dots
 \end{abstract}
@@ -41,16 +41,16 @@ style=phys,
 \section{Is it possible to specify all points on the number line exactly by drawing them?}
 ...history Hippasus...
 
-The Greek proof that there is no rational number whose square equals \(2\) is one of the great intellectual achievements of humanity and it should be experienced by every educated person \cite[4]{axler_algebra_2012}.
+The Greek proof that there is no rational number whose square equals \(2\) is one of the great intellectual achievements of humanity and it should be experienced by every educated person \cite[4]{axlerAlgebraTrigonometryStudent2012}.
 
 \section{Root? Square root?}
 Before we deal with the question, what \emph{irrational} numbers are, it is crucial to understand what a root and what a square root of a number are. Our exploration starts with an imaginative number line, where the integer numbers, or simply the \emph{integers} and the \emph{rational numbers} are located.
-As you probably know, \emph{integers} are the numbers 
+As you probably know, \emph{integers} are the numbers
 \begin{equation*}
     \dots , -3, -2, -1, 0, 1, 2, 3, \dots
 \end{equation*}
-that continue infinitely in both directions of the number line: 
-On left side of the number zero there are the \emph{negative integers} and on the right side of zero there are the \emph{positive integers}. 
+that continue infinitely in both directions of the number line:
+On left side of the number zero there are the \emph{negative integers} and on the right side of zero there are the \emph{positive integers}.
 Likewise, also the \emph{rational numbers} continue infinitely in both directions of our imaginative number line: they are numbers that are expressed as a ratio or a quotient of two integers, for example
 \begin{equation*}
     \dots, -\frac{3}{2}, -\frac{2}{3}, -\frac{1}{3}, \frac{0}{1}, \frac{1}{2}, \frac{1}{3}, \frac{4}{3}, \dots .
@@ -76,63 +76,69 @@ Now a \emph{square} root is a special case of this rule, namely when \(n\) equal
 
 % Theorem
 \begin{theorem}
-The square root of 2 (i. e. \( \sqrt{2} = 2^{1/2}\)) is irrational.
+    The square root of 2 (i. e. \( \sqrt{2} = 2^{1/2}\)) is irrational.
 \end{theorem}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 Main Idea behind the Proof: Try to express the square root as a fraction. You will see that this leads to a contradiction.
 \begin{proof}
-We suppose that \(2^{1/2}\) is rational. By definition, a number belongs to the set of the rational numbers \(\mathbb{Q}\), if it can be expressed as a ratio of two integers  \(\frac{p}{q}\), where the numerator p can be any integer and the denominator q must be a non-zero integer.
+    We suppose that \(2^{1/2}\) is rational. By definition, a number belongs to the set of the rational numbers \(\mathbb{Q}\), if it can be expressed as a ratio of two integers  \(\frac{p}{q}\), where the numerator p can be any integer and the denominator q must be a non-zero integer.
 
-If \(2^{1/2}\) is rational, then it can be expressed as the ratio of two integers p and q, where p and q have no common factor other than \(1\):
-\begin{equation}\label{1.1}
-    2^{1/2} = \frac{p}{q}.    
-\end{equation}
-Now we square both sides of the equation (\ref{1.1}), which on the left-hand side (LHS) gives: 
-\begin{equation}\label{1.2}
-    \left(2^{1/2}\right)^{2} = 2^{2/2} = 2 =,
-\end{equation}
-and on the right-hand side (RHS) it gives: 
-\begin{equation}\label{1.3}
-    = \left(\frac{p}{q}\right)^{2} = \frac{p^2}{q^2}.
-\end{equation}
-That is:
-\begin{equation}\label{1.4}
-    2 = \frac{p^2}{q^2},
-\end{equation}
-which by basic algebra can be rearranged into: 
-\begin{equation}\label{1.5}
-    p^{2} = 2q^{2}.
-\end{equation}
-Now, by definition of an even integer, that has the form \((2 \cdot \text{an integer}\)), the RHS, i. e. \(2q^{2}\) is an even integer. It follows that also the LHS, that is \(p^{2}\) must be even. This leads us to the question of whether p is also even.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Proof that if s^{2} is even, also s is even. 
-\begin{proposition}\label{2.1}
-For every integer \(s\), if \(s^{2}\) is even then \(s\) is even.
-\end{proposition}
-\begin{proof}\renewcommand{\qedsymbol}{}
-    Suppose \(s\) is any odd integer. Then, by the definition of an odd integer, \(s = 2k + 1\) for some integer k. By substitution and basic algebra, we get:
-    \begin{equation}
-        s^{2} = (2k + 1)^{2} = 4k^{2} + 4k + 1 = 2(2k^{2} + 2k) + 1.
+    If \(2^{1/2}\) is rational, then it can be expressed as the ratio of two integers p and q, where p and q have no common factor other than \(1\):
+    \begin{equation}\label{1.1}
+        2^{1/2} = \frac{p}{q}.
     \end{equation}
-    Due to the closure under addition and multiplication that holds within the set of integers \(\mathbb{Z}\), \(L = 2k^{2} + 2k\) is an integer. Hence, also \(s^{2} = 2 \cdot L + 1\) is an integer, and by the definition of an odd integer, \(s^{2}\) is odd.
+    Now we square both sides of the equation (\ref{1.1}), which on the left-hand side (LHS) gives:
+    \begin{equation}\label{1.2}
+        \left(2^{1/2}\right)^{2} = 2^{2/2} = 2 =,
+    \end{equation}
+    and on the right-hand side (RHS) it gives:
+    \begin{equation}\label{1.3}
+        = \left(\frac{p}{q}\right)^{2} = \frac{p^2}{q^2}.
+    \end{equation}
+    That is:
+    \begin{equation}\label{1.4}
+        2 = \frac{p^2}{q^2},
+    \end{equation}
+    which by basic algebra can be rearranged into:
+    \begin{equation}\label{1.5}
+        p^{2} = 2q^{2}.
+    \end{equation}
+    Now, by definition of an even integer, that has the form \((2 \cdot \text{an integer}\)), the RHS, i. e. \(2q^{2}\) is an even integer. It follows that also the LHS, that is \(p^{2}\) must be even. This leads us to the question of whether p is also even.
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % Proof that if s^{2} is even, also s is even. 
+    \begin{proposition}\label{2.1}
+        For every integer \(s\), if \(s^{2}\) is even then \(s\) is even.
+    \end{proposition}
+    \begin{proof}\renewcommand{\qedsymbol}{}
+        Suppose \(s\) is any odd integer. Then, by the definition of an odd integer, \(s = 2k + 1\) for some integer k. By substitution and basic algebra, we get:
+        \begin{equation}
+            s^{2} = (2k + 1)^{2} = 4k^{2} + 4k + 1 = 2(2k^{2} + 2k) + 1.
+        \end{equation}
+        Due to the closure under addition and multiplication that holds within the set of integers \(\mathbb{Z}\), \(L = 2k^{2} + 2k\) is an integer. Hence, also \(s^{2} = 2 \cdot L + 1\) is an integer, and by the definition of an odd integer, \(s^{2}\) is odd.
+    \end{proof}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%
+    Now we know, that also \(p\) must be even. And by definition of an even integer, we also deduce that:
+    \begin{equation}\label{1.6}
+        p = 2r \quad \text{for some integer} \; r.
+    \end{equation}
+    Now, by substitution, we insert into equation (\ref{1.5}) what we got in equation (\ref{1.6}), and we see that:
+    \begin{equation}\label{1.7}
+        p^{2} = (2r)^{2} = 4r^{2} = 2q^{2}.
+    \end{equation}
+    By dividing both, \(4r^{2}\) and \(2q^{2}\) by \(2\), we get:
+    \begin{equation}\label{1.8}
+        2r^{2} = q^{2}.
+    \end{equation}
+    As we can see, by the definition of an even integer, \(q^{2}\) is even, and by proposition (\ref{2.1}) also q is even. But earlier, we deduced from (\ref{1.5}) that \(p\) is even. And this would mean, that both \(p\) and \(q\) are even, and that they have the common factor \(2\). But this contradicts the supposition, that p and q do not have a common factor, other than 1. Hence, the supposition is false and the theorem, which states that the square root of 2 cannot be expressed as a ratio of two integers, is true, which means that it is irrational.
 \end{proof}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Now we know, that also \(p\) must be even. And by definition of an even integer, we also deduce that: 
-\begin{equation}\label{1.6}
-    p = 2r \quad \text{for some integer} \; r. 
-\end{equation}
-Now, by substitution, we insert into equation (\ref{1.5}) what we got in equation (\ref{1.6}), and we see that: 
-\begin{equation}\label{1.7}
-    p^{2} = (2r)^{2} = 4r^{2} = 2q^{2}.
-\end{equation}
-By dividing both, \(4r^{2}\) and \(2q^{2}\) by \(2\), we get: 
-\begin{equation}\label{1.8}
-    2r^{2} = q^{2}.
-\end{equation}
-As we can see, by the definition of an even integer, \(q^{2}\) is even, and by proposition (\ref{2.1}) also q is even. But earlier, we deduced from (\ref{1.5}) that \(p\) is even. And this would mean, that both \(p\) and \(q\) are even, and that they have the common factor \(2\). But this contradicts the supposition, that p and q do not have a common factor, other than 1. Hence, the supposition is false and the theorem, which states that the square root of 2 cannot be expressed as a ratio of two integers, is true, which means that it is irrational.
-\end{proof}
-\section{Test}
-And here is the test of the citation \cite[345-347]{epp_discrete_2020}.
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%
 % Bibliography
 \printbibliography
