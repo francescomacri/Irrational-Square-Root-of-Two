@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1717281537.68742 "main.bcf" "main.bbl" "main" 1717281552.27374 0
-  "main.bcf" 1717281552.16768 107511 1f59432ed46ae2558d3c9e331fe27027 "pdflatex"
-  "references.bib" 1717281476.01739 10128 2a386a836df30848ee577dd490c2b80e ""
+["biber main"] 1717281537.68742 "main.bcf" "main.bbl" "main" 1717337953.41384 0
+  "main.bcf" 1717337953.30631 107511 1f59432ed46ae2558d3c9e331fe27027 "pdflatex"
+  "references.bib" 1717337729.92422 10128 2a386a836df30848ee577dd490c2b80e ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1717281551.15609 "/Users/francesco/Documents/MyGitHub/PiecesOfMathematics/Why-is-the-square-root-of-2-irrational-/main.tex" "main.pdf" "main" 1717281552.27403 0
-  "/Users/francesco/Documents/MyGitHub/PiecesOfMathematics/Why-is-the-square-root-of-2-irrational-/main.tex" 1717281550.9947 7816 49eaf3b33d40e6fe074ebac78ba858aa ""
+["pdflatex"] 1717337952.30381 "/Users/francesco/Documents/MyGitHub/PiecesOfMathematics/YYYYMMDDIrrationalSquareRoot/main.tex" "main.pdf" "main" 1717337953.41415 0
+  "/Users/francesco/Documents/MyGitHub/PiecesOfMathematics/YYYYMMDDIrrationalSquareRoot/main.tex" 1717337952.0289 7816 49eaf3b33d40e6fe074ebac78ba858aa ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -215,11 +215,11 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1713623036.9757 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1713622975 8221420 875db70dd1d2f304ad1c14750e1bc088 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1717281552.16432 1559 60d7e482aa0a787e77140d27acf2df5b "pdflatex"
-  "main.bbl" 1717281539.8793 1834 6faf7f531bff75abd0e4a5a398e7e8ad "biber main"
-  "main.out" 1717281552.16492 754 1b413d40b74b959afce92b9fe4f0230a "pdflatex"
-  "main.run.xml" 1717281552.16835 2430 b29f292c3d282b44810cacf5f1fb7029 "pdflatex"
-  "main.tex" 1717281550.9947 7816 49eaf3b33d40e6fe074ebac78ba858aa ""
+  "main.aux" 1717337953.30311 1559 60d7e482aa0a787e77140d27acf2df5b "pdflatex"
+  "main.bbl" 1717337729.92075 1834 6faf7f531bff75abd0e4a5a398e7e8ad "biber main"
+  "main.out" 1717337953.30358 754 1b413d40b74b959afce92b9fe4f0230a "pdflatex"
+  "main.run.xml" 1717337953.30701 2430 b29f292c3d282b44810cacf5f1fb7029 "pdflatex"
+  "main.tex" 1717337952.0289 7816 49eaf3b33d40e6fe074ebac78ba858aa ""
   (generated)
   "main.aux"
   "main.bcf"
