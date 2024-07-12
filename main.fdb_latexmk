@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1720365275.60741 "main.bcf" "main.bbl" "main" 1720803334.3592 0
-  "main.bcf" 1720803334.23336 107511 1f59432ed46ae2558d3c9e331fe27027 "pdflatex"
+["biber main"] 1720804742.39793 "main.bcf" "main.bbl" "main" 1720804747.09937 0
+  "main.bcf" 1720804746.9787 107511 1f59432ed46ae2558d3c9e331fe27027 "pdflatex"
   "references.bib" 1717337729.92422 10128 2a386a836df30848ee577dd490c2b80e ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1720803333.19064 "/Users/francesco/Documents/MyGitHub/PiecesOfMathematics/YYYYMMDDIrrationalSquareRoot/main.tex" "main.pdf" "main" 1720803334.35953 0
-  "/Users/francesco/Documents/MyGitHub/PiecesOfMathematics/YYYYMMDDIrrationalSquareRoot/main.tex" 1720803332.93528 7880 455e67f76d58eeea784145e6b387cd9e ""
+["pdflatex"] 1720804745.91094 "/Users/francesco/Documents/MyGitHub/PiecesOfMathematics/YYYYMMDDIrrationalSquareRoot/main.tex" "main.pdf" "main" 1720804747.09966 0
+  "/Users/francesco/Documents/MyGitHub/PiecesOfMathematics/YYYYMMDDIrrationalSquareRoot/main.tex" 1720804745.08773 7743 70bc51c3e9a830cb07cdc0dfb73e2f2d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -199,7 +199,6 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1279039959 678 4792914a8f45be57bb98413425e4c7af ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def" 1284153563 1620 fb1c32b818f2058eca187e5c41dfae77 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty" 1284153563 6187 b27afc771af565d3a9ff1ca7d16d0d46 ""
-  "/usr/local/texlive/2024/texmf-dist/tex/latex/marginnote/marginnote.sty" 1694117802 13939 7ed930e305d0adac5fc442804b358844 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/nextpage/nextpage.sty" 1252088423 1745 04b0f50af5d59a9cf3c17f3f4452ed12 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/orcidlink/orcidlink.sty" 1704057945 2483 7b39e31504181e4166830ab059a4be2a ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty" 1601326656 1090 bae35ef70b3168089ef166db3e66f5b2 ""
@@ -223,11 +222,11 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1713623036.9757 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1713622975 8221420 875db70dd1d2f304ad1c14750e1bc088 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1720803334.23007 1559 3fc99b4d7f0230939af75e51c761d38d "pdflatex"
-  "main.bbl" 1720365277.80598 1834 6faf7f531bff75abd0e4a5a398e7e8ad "biber main"
-  "main.out" 1720803334.23059 754 1b413d40b74b959afce92b9fe4f0230a "pdflatex"
-  "main.run.xml" 1720803334.23409 2430 b29f292c3d282b44810cacf5f1fb7029 "pdflatex"
-  "main.tex" 1720803332.93528 7880 455e67f76d58eeea784145e6b387cd9e ""
+  "main.aux" 1720804746.97495 1559 3fc99b4d7f0230939af75e51c761d38d "pdflatex"
+  "main.bbl" 1720804744.72278 1834 6faf7f531bff75abd0e4a5a398e7e8ad "biber main"
+  "main.out" 1720804746.97553 754 1b413d40b74b959afce92b9fe4f0230a "pdflatex"
+  "main.run.xml" 1720804746.9796 2430 b29f292c3d282b44810cacf5f1fb7029 "pdflatex"
+  "main.tex" 1720804745.08773 7743 70bc51c3e9a830cb07cdc0dfb73e2f2d ""
   (generated)
   "main.aux"
   "main.bcf"
