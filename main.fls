@@ -227,6 +227,8 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/epigraph/epigraph.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/epigraph/epigraph.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/nextpage/nextpage.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/nextpage/nextpage.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/marginnote/marginnote.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/marginnote/marginnote.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/todonotes/todonotes.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/todonotes/todonotes.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
