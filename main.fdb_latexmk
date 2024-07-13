@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1720804742.39793 "main.bcf" "main.bbl" "main" 1720804747.09937 0
-  "main.bcf" 1720804746.9787 107511 1f59432ed46ae2558d3c9e331fe27027 "pdflatex"
-  "references.bib" 1717337729.92422 10128 2a386a836df30848ee577dd490c2b80e ""
+["biber main"] 1720872414.6336 "main.bcf" "main.bbl" "main" 1720872710.49537 0
+  "main.bcf" 1720872710.37902 108742 1476ca112847e1bcae83c405e9696a16 "pdflatex"
+  "references.bib" 1720862947.08579 11733 056912fde964dcea0931a5f1e9841979 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1720804745.91094 "/Users/francesco/Documents/MyGitHub/PiecesOfMathematics/YYYYMMDDIrrationalSquareRoot/main.tex" "main.pdf" "main" 1720804747.09966 0
-  "/Users/francesco/Documents/MyGitHub/PiecesOfMathematics/YYYYMMDDIrrationalSquareRoot/main.tex" 1720804745.08773 7743 70bc51c3e9a830cb07cdc0dfb73e2f2d ""
+["pdflatex"] 1720872709.27119 "/Users/francesco/Documents/MyGitHub/PiecesOfMathematics/YYYYMMDDIrrationalSquareRoot/main.tex" "main.pdf" "main" 1720872710.49567 0
+  "/Users/francesco/Documents/MyGitHub/PiecesOfMathematics/YYYYMMDDIrrationalSquareRoot/main.tex" 1720872709.00161 8470 e3b728a370f478fd76001b6fcd59f10b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -222,11 +222,11 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1713623036.9757 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1713622975 8221420 875db70dd1d2f304ad1c14750e1bc088 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1720804746.97495 1559 3fc99b4d7f0230939af75e51c761d38d "pdflatex"
-  "main.bbl" 1720804744.72278 1834 6faf7f531bff75abd0e4a5a398e7e8ad "biber main"
-  "main.out" 1720804746.97553 754 1b413d40b74b959afce92b9fe4f0230a "pdflatex"
-  "main.run.xml" 1720804746.9796 2430 b29f292c3d282b44810cacf5f1fb7029 "pdflatex"
-  "main.tex" 1720804745.08773 7743 70bc51c3e9a830cb07cdc0dfb73e2f2d ""
+  "main.aux" 1720872710.37533 3339 3e4a891ab39e8f13a230117dca40fdfe "pdflatex"
+  "main.bbl" 1720872417.13177 8539 7ac22c2d63dacde43c1fa6f9545c025e "biber main"
+  "main.out" 1720872710.37624 390 c2a04d48c8179acb940e2987abf6527f "pdflatex"
+  "main.run.xml" 1720872710.3797 2430 b29f292c3d282b44810cacf5f1fb7029 "pdflatex"
+  "main.tex" 1720872709.00161 8470 e3b728a370f478fd76001b6fcd59f10b ""
   (generated)
   "main.aux"
   "main.bcf"

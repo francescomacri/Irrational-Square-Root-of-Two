@@ -8,7 +8,7 @@
 \usepackage{csquotes}
 \usepackage{epigraph}
 \usepackage[colorinlistoftodos]{todonotes}
-%\usepackage{hyperref}
+\usepackage{hyperref}
 \usepackage{enumitem}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Style of Bibliography
@@ -32,67 +32,54 @@ style=phys,
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \epigraph{The Greek proof that there is no rational number whose square equals 2 is one of the great intellectual achievements of humanity and it should be experienced by every educated person \cite[4]{axlerAlgebraTrigonometryStudent2012}.} {\textit{Sheldon Axler}}
-\title{Why is the square root of 2 irrational?}
+\title{The square root of 2 is irrational}
 \author{Francesco Macrì \orcidlink{0009-0006-8892-7514}}
 \begin{abstract}
-    \dots
+    This article presents a very famous proof that the square root of 2 cannot be expressed by a rational number.
 \end{abstract}
 \maketitle
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The main idea behind the proof
+\noindent\fbox{\parbox{\textwidth}{\emph{The main idea behind the proof:} Try to express the square root of 2 as a fraction without common factors, i.e. as a rational number. If this succeeds, it would mean that the square root of 2 is rational. But this is simply not possible and ultimately leads to a contradiction.}}
 
-\section{Is it possible to specify all points on the number line exactly by drawing them?}
-...history Hippasus...
-
-\section{Root? Square root?}
-Before we deal with the question, what \emph{irrational} numbers are, it is crucial to understand what a root and what a square root of a number are. Our exploration starts with an imaginative number line, where the integer numbers, or simply the \emph{integers} and the \emph{rational numbers} are located.
-As you probably know, \emph{integers} are the numbers
-\begin{equation*}
-    \dots , -3, -2, -1, 0, 1, 2, 3, \dots
-\end{equation*}
-that continue infinitely in both directions of the number line:
-On left side of the number zero there are the \emph{negative integers} and on the right side of zero there are the \emph{positive integers}.
-Likewise, also the \emph{rational numbers} continue infinitely in both directions of our imaginative number line: they are numbers that are expressed as a ratio or a quotient of two integers, for example
-\begin{equation*}
-    \dots, -\frac{3}{2}, -\frac{2}{3}, -\frac{1}{3}, \frac{0}{1}, \frac{1}{2}, \frac{1}{3}, \frac{4}{3}, \dots .
-\end{equation*}
-Please note, that whereas the top number of the fraction, that is the numerator, can be \(0\), because \(0\) divided by \(1\) as in the example above is still \(0\), the bottom number of the fraction, namely the denominator, cannot have the value \(0\), because if we assume that the quotient of such a fraction would be \(q = \frac{a}{0}\), then by basic algebra we would get \(q \cdot 0 = a\), and hence, by the fact that multiplying any number with \(0\) gives always \(0\), we get \(0 = a\). But this would also mean that in theory we could insert as \(q\) any number, which would lead to \(1 \cdot 0 = 0 \cdot 0, 2 \cdot 0 = 0 \cdot 0, 3 \cdot 0 = 0 \cdot 0, \dots\). If we would now cancel out \(0\) on the left-hand side (LHS) and on the right-hand side (RHS), we would get obviously wrong results such as \(1 = 0, 2 = 0, 3 = 0, \dots\). This is one of the reasons why it is not allowed to have a denominator with the value \(0\).
-
-% Powers and roots
-If we now multiply an integer \(x\) by itself \(n\) times (with \(n\) being a positive integer), we get the product \(y\), which in this case is also an integer.
-The resulting equation can be expressed as
+\section{Historical Notes}
+The ancient Greeks, the Pythagoreans, studied prime numbers, progressions, and those ratios and proportions, but in contrast to our current understanding, a ratio of two whole numbers was not a fraction, i. e. a distinct kind of number with respect to the whole numbers \cite[32]{klineMathematicalThoughtAncient1990}.
+The own discovery of the role of whole numbers in musical harmony inspired Pythagoreans to seek whole-number patterns everywhere \cite[11]{stillwellMathematicsItsHistory2010}.
+If quantities could have been measured by a common unit using whole numbers, they had a common measure and where called \emph{com-mensurable} \cite[32]{klineMathematicalThoughtAncient1990}.
+The discovery of ratios that were not measurable in this way, i. e. that where \emph{in-commensurable}, is attrubuted to \textsc{Hippasus of Metapontum} \cite[32]{klineMathematicalThoughtAncient1990}, and was a turning point in Greek mathematics \cite[1]{stillwellStoryProofLogic2022}. Furthermore, it has affected mathematics and philisophy from the time of the Greeks to the present day \cite[59]{courantWhatMathematicsElementary1996} and it is assumed that it marked the origin of what these days is considered the Greek contribution to rigorous procedure in mathematics \cite[59]{courantWhatMathematicsElementary1996}, \cite[1]{stillwellStoryProofLogic2022}.
+The starting point was the Pythagorean theorem, that was discovered indipendently in several ancient cultures \cite[3]{stillwellStoryProofLogic2022}.
+There is evidence \cite[4]{stillwellMathematicsItsHistory2010} that the Babylonians (1800 BC), the Chinese (between 200 and 220 BC) and Indian (between 500 and 200 BC) mathematicians were interested in triangles whose sides where whole-number triples that - denoted in modern way - satisfy the equation \(a^{2} + b^{2} = c^{2}\) \cite[3-4]{stillwellStoryProofLogic2022} such as for instance the following ones, that today we call \emph{Pythagorean triples} \cite[4]{stillwellMathematicsItsHistory2010}, e. g. \(\langle 3, 4, 5 \rangle, \langle 5, 12, 13 \rangle, \langle 8, 15, 17 \rangle\):
+\begin{align*}
+     & 3^{2} + 4^{2}  =  5^{2}  = 9 + 16 = 25,     \\
+     & 5^{2} + 12^{2} =  13^{2}  = 25 + 144 = 169, \\
+     & 8^{2} + 15^{2} = 17^{2} = 64 + 225 = 289.
+\end{align*}
+But it is assumed, that only the Pythagoreans were interested in a special case that eventually led to the discovery of the \emph{incommensurable} ratios: Given that two sides of the right-angled triangle are \(a = b\); the crucial question - again, denoted in the modern way - must have been whether there are whole numbers \(a\) and \(c\) that satisfy the equation:
 \begin{equation}
-    \underbrace{(x \cdot x \cdot x \cdot \cdots \cdot x)}_{n \; times} = y,
+    c^{2} = 2a^{2},
 \end{equation}
-or more conveniently, as
-\begin{equation}
-    x^{n} = y.
-\end{equation}
+fulfilling \emph{commensurability} \cite[6-7]{stillwellStoryProofLogic2022}, \cite[58]{courantWhatMathematicsElementary1996}. \\
 
-% Square root in basic mathematics
-Now \emph{squaring} is a special case of this rule, namely when \(n\) equals 2
-\begin{equation}
-    \underbrace{y \cdot y}_{2 \; times} = y^{2} = x
-\end{equation}
-
+\section{Theorem and Proof}
 % Theorem
 \begin{theorem}
-    The square root of 2 (i. e. \( \sqrt{2} = 2^{1/2}\)) is irrational.
+    The square root of 2 is irrational.
 \end{theorem}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Main Idea behind the Proof: Try to express the square root as a fraction. You will see that this leads to a contradiction.
+% Proof
 \begin{proof}
-    We suppose that \(2^{1/2}\) is rational. By definition, a number belongs to the set of the rational numbers \(\mathbb{Q}\), if it can be expressed as a ratio of two integers  \(\frac{p}{q}\), where the numerator p can be any integer and the denominator q must be a non-zero integer.
+    We suppose that the square root of \(2\) is rational.
+    By definition, a number belongs to the set of the rational numbers \(\mathbb{Q}\), if it can be expressed as a ratio of two integers  \(\frac{p}{q}\), where the numerator p can be any integer and the denominator q must be a non-zero integer.
 
-    If \(2^{1/2}\) is rational, then it can be expressed as the ratio of two integers p and q, where p and q have no common factor other than \(1\):
+    If the square root of \(2\) is rational, then it can be expressed as the ratio of two integers p and q, where p and q have no common factor other than \(1\):
     \begin{equation}\label{1.1}
-        2^{1/2} = \frac{p}{q}.
+        \sqrt{2} = 2^{1/2} = \frac{p}{q}.
     \end{equation}
-    Now we square both sides of the equation (\ref{1.1}), which on the left-hand side (LHS) gives:
+    Now we square both sides of the equation (\ref{1.1}). On the left-hand side (LHS) it gives:
     \begin{equation}\label{1.2}
         \left(2^{1/2}\right)^{2} = 2^{2/2} = 2 =,
     \end{equation}
-    and on the right-hand side (RHS) it gives:
+    whereas on the right-hand side (RHS) it gives:
     \begin{equation}\label{1.3}
         = \left(\frac{p}{q}\right)^{2} = \frac{p^2}{q^2}.
     \end{equation}
@@ -104,23 +91,23 @@ Main Idea behind the Proof: Try to express the square root as a fraction. You wi
     \begin{equation}\label{1.5}
         p^{2} = 2q^{2}.
     \end{equation}
-    Now, by definition of an even integer, that has the form \((2 \cdot \text{an integer}\)), the RHS, i. e. \(2q^{2}\) is an even integer. It follows that also the LHS, that is \(p^{2}\) must be even. This leads us to the question of whether p is also even.
+    Now, by definition of an even integer, that has the form \((2 \cdot \text{an integer}\)), the RHS, i. e. \(2q^{2}\) is an even integer. It follows that also the LHS, that is \(p^{2}\) must be even. This leads us to the question of whether \(p\) is also even.
     %%%%%%%%%%%%%%%%%%%%%%%%%%%
     % Proof that if s^{2} is even, also s is even. 
     \begin{proposition}\label{2.1}
         For every integer \(s\), if \(s^{2}\) is even then \(s\) is even.
     \end{proposition}
-    \begin{proof}\renewcommand{\qedsymbol}{}
+    \begin{proof}
         Suppose \(s\) is any odd integer. Then, by the definition of an odd integer, \(s = 2k + 1\) for some integer k. By substitution and basic algebra, we get:
         \begin{equation}
             s^{2} = (2k + 1)^{2} = 4k^{2} + 4k + 1 = 2(2k^{2} + 2k) + 1.
         \end{equation}
-        Due to the closure under addition and multiplication that holds within the set of integers \(\mathbb{Z}\), \(L = 2k^{2} + 2k\) is an integer. Hence, also \(s^{2} = 2 \cdot L + 1\) is an integer, and by the definition of an odd integer, \(s^{2}\) is odd.
+        If we add or multiply integers toghether, the resulting sum or product will still be in the same set \(\mathbb{Z}\), i. e. it is an integer. This is referred to as the closure property of addition and multiplication which holds within the set of integers. Due to these properties, the expression \(2k^{2} + 2k\) must be an integer. We will denote it as \(L = 2k^{2} + 2k\). Hence, also \(s^{2} = 2 \cdot L + 1\) is an integer, and by the definition of an odd integer, \(s^{2}\) is odd.
     \end{proof}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%
     Now we know, that also \(p\) must be even. And by definition of an even integer, we also deduce that:
     \begin{equation}\label{1.6}
-        p = 2r \quad \text{for some integer} \; r.
+        p = 2r \qquad \text{for some integer} \; r.
     \end{equation}
     Now, by substitution, we insert into equation (\ref{1.5}) what we got in equation (\ref{1.6}), and we see that:
     \begin{equation}\label{1.7}

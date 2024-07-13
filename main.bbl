@@ -51,6 +51,143 @@
       \field{dateera}{ce}
       \keyw{Algebra,Trigonometry}
     \endentry
+    \entry{klineMathematicalThoughtAncient1990}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a81af2a738afc3d2f337824eae839fce}{%
+           family={Kline},
+           familyi={K\bibinitperiod},
+           given={Morris},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{a81af2a738afc3d2f337824eae839fce}
+      \strng{fullhash}{a81af2a738afc3d2f337824eae839fce}
+      \strng{bibnamehash}{a81af2a738afc3d2f337824eae839fce}
+      \strng{authorbibnamehash}{a81af2a738afc3d2f337824eae839fce}
+      \strng{authornamehash}{a81af2a738afc3d2f337824eae839fce}
+      \strng{authorfullhash}{a81af2a738afc3d2f337824eae839fce}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-19-506135-2}
+      \field{title}{Mathematical Thought from Ancient to Modern Times}
+      \field{year}{1990}
+      \field{dateera}{ce}
+    \endentry
+    \entry{stillwellMathematicsItsHistory2010}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8e3125fd9a902a9b525121e39152ba3d}{%
+           family={Stillwell},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{8e3125fd9a902a9b525121e39152ba3d}
+      \strng{fullhash}{8e3125fd9a902a9b525121e39152ba3d}
+      \strng{bibnamehash}{8e3125fd9a902a9b525121e39152ba3d}
+      \strng{authorbibnamehash}{8e3125fd9a902a9b525121e39152ba3d}
+      \strng{authornamehash}{8e3125fd9a902a9b525121e39152ba3d}
+      \strng{authorfullhash}{8e3125fd9a902a9b525121e39152ba3d}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd ed}
+      \field{isbn}{978-1-4419-6052-8 978-1-4419-6053-5}
+      \field{pagetotal}{660}
+      \field{series}{Undergraduate Texts in Mathematics}
+      \field{title}{Mathematics and Its History}
+      \field{year}{2010}
+      \field{dateera}{ce}
+    \endentry
+    \entry{stillwellStoryProofLogic2022}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8e3125fd9a902a9b525121e39152ba3d}{%
+           family={Stillwell},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton, New Jersey}%
+      }
+      \list{publisher}{1}{%
+        {Princeton university press}%
+      }
+      \strng{namehash}{8e3125fd9a902a9b525121e39152ba3d}
+      \strng{fullhash}{8e3125fd9a902a9b525121e39152ba3d}
+      \strng{bibnamehash}{8e3125fd9a902a9b525121e39152ba3d}
+      \strng{authorbibnamehash}{8e3125fd9a902a9b525121e39152ba3d}
+      \strng{authornamehash}{8e3125fd9a902a9b525121e39152ba3d}
+      \strng{authorfullhash}{8e3125fd9a902a9b525121e39152ba3d}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{How the concept of proof has enabled the creation of mathematical knowledge. The Story of Proof investigates the evolution of the concept of proof--one of the most significant and defining features of mathematical thought--through critical episodes in its history. From the Pythagorean theorem to modern times, and across all major mathematical disciplines, John Stillwell demonstrates that proof is a mathematically vital concept, inspiring innovation and playing a critical role in generating knowledge. Stillwell begins with Euclid and his influence on the development of geometry and its methods of proof, followed by algebra, which began as a self-contained discipline but later came to rival geometry in its mathematical impact. In particular, the infinite processes of calculus were at first viewed as "infinitesimal algebra," and calculus became an arena for algebraic, computational proofs rather than axiomatic proofs in the style of Euclid. Stillwell proceeds to the areas of number theory, non-Euclidean geometry, topology, and logic, and peers into the deep chasm between natural number arithmetic and the real numbers. In its depths, Cantor, Gödel, Turing, and others found that the concept of proof is ultimately part of arithmetic. This startling fact imposes fundamental limits on what theorems can be proved and what problems can be solved. Shedding light on the workings of mathematics at its most fundamental levels, The Story of Proof offers a compelling new perspective on the field's power and progress}
+      \field{isbn}{978-0-691-23436-6}
+      \field{langid}{english}
+      \field{shorttitle}{The Story of Proof}
+      \field{title}{The Story of Proof: Logic and the History of Mathematics}
+      \field{year}{2022}
+      \field{dateera}{ce}
+    \endentry
+    \entry{courantWhatMathematicsElementary1996}{book}{}
+      \name{author}{3}{}{%
+        {{hash=cbd386a8e82953321d78271e8559b24b}{%
+           family={Courant},
+           familyi={C\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=163566b92b332258782e61e3d217a2bb}{%
+           family={Robbins},
+           familyi={R\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+        {{hash=938deea52ee0682e0dec169cec31863a}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{80a159e500ef5d458335defe6843ff7d}
+      \strng{fullhash}{9fccf2c9b71e0ec2208c5bef4f31265f}
+      \strng{bibnamehash}{9fccf2c9b71e0ec2208c5bef4f31265f}
+      \strng{authorbibnamehash}{9fccf2c9b71e0ec2208c5bef4f31265f}
+      \strng{authornamehash}{80a159e500ef5d458335defe6843ff7d}
+      \strng{authorfullhash}{9fccf2c9b71e0ec2208c5bef4f31265f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{2nd ed}
+      \field{isbn}{978-0-19-510519-3}
+      \field{pagetotal}{566}
+      \field{shorttitle}{What Is Mathematics?}
+      \field{title}{What Is Mathematics? An Elementary Approach to Ideas and Methods}
+      \field{year}{1996}
+      \field{dateera}{ce}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
