@@ -42,48 +42,44 @@ style=phys,
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 % The main idea behind the proof
-\noindent\fbox{\parbox{\textwidth}{\emph{The main idea behind the proof:} Try to express the square root of 2 as a fraction without common factors, i.e. as a rational number. If this succeeds, it would mean that the square root of 2 is rational. But this is simply not possible and ultimately leads to a contradiction.}}
-
+\noindent\fbox{\parbox{\textwidth}{\emph{The main idea behind the proof:} By using proof by contradiction, try to express the square root of 2 as a fraction without common factors, i.e. as a rational number. This is not possible and ultimately leads to a contradiction, which means that the square root of 2 cannot be expressed as a rational number.}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Historical Notes
 \section{Historical Notes}
 The ancient Greeks, the Pythagoreans, studied prime numbers, progressions, and those ratios and proportions, but in contrast to our current understanding, a ratio of two whole numbers was not a fraction, i. e. a distinct kind of number with respect to the whole numbers \cite[32]{klineMathematicalThoughtAncient1990}.
 The (own) discovery of the role of whole numbers in musical harmony inspired Pythagoreans to seek whole-number patterns everywhere \cite[11]{stillwellMathematicsItsHistory2010}.
 Now, if quantities could have been measured by a common unit using whole numbers, they had a common measure and where called \emph{com-mensurable} \cite[32]{klineMathematicalThoughtAncient1990}.
 The discovery of ratios that were not measurable in this way, i. e. that where \emph{in-commensurable}, is attrubuted to \textsc{Hippasus of Metapontum} \cite[32]{klineMathematicalThoughtAncient1990}, and was a turning point in Greek mathematics \cite[1]{stillwellStoryProofLogic2022}: It has affected mathematics and philisophy from the time of the Greeks to the present day \cite[59-60]{courantWhatMathematicsElementary1996} and it is assumed that it marked the origin of what is considered the Greek contribution to rigorous procedure in mathematics \cite[59]{courantWhatMathematicsElementary1996}, \cite[1]{stillwellStoryProofLogic2022}.
 The starting point of this scientific event \cite[59]{courantWhatMathematicsElementary1996} in Greek mathematics was the Pythagorean theorem, that was discovered indipendently in several ancient cultures \cite[3]{stillwellStoryProofLogic2022}.
-There is evidence \cite[4]{stillwellMathematicsItsHistory2010} that the Babylonians (1800 BC), the Chinese mathematicians (between 200 and 220 BC) and Indian mathematicians(between 500 and 200 BC) were interested in triangles whose sides where whole-number triples that - denoted in modern notation - satisfy the equation \(a^{2} + b^{2} = c^{2}\) \cite[3-4]{stillwellStoryProofLogic2022} such as for instance the following ones, that now are referred to as \emph{Pythagorean triples} \cite[4]{stillwellMathematicsItsHistory2010}, e. g. \(\langle 3, 4, 5 \rangle, \langle 5, 12, 13 \rangle, \langle 8, 15, 17 \rangle\):
+There is evidence \cite[4]{stillwellMathematicsItsHistory2010} that the Babylonians (1800 BC), the Chinese mathematicians (between 200 and 220 BC) and Indian mathematicians (between 500 and 200 BC) were interested in triangles whose sides where whole-number triples that - denoted in modern notation - satisfy the equation \(a^{2} + b^{2} = c^{2}\) \cite[3-4]{stillwellStoryProofLogic2022}, such as for instance the following ones, meanwhile referred to as \emph{Pythagorean triples} \cite[4]{stillwellMathematicsItsHistory2010}, e. g. \(\langle 3, 4, 5 \rangle, \langle 5, 12, 13 \rangle, \langle 8, 15, 17 \rangle\):
 \begin{align*}
      & 3^{2} + 4^{2}  =  5^{2}  = 9 + 16 = 25,     \\
      & 5^{2} + 12^{2} =  13^{2}  = 25 + 144 = 169, \\
      & 8^{2} + 15^{2} = 17^{2} = 64 + 225 = 289.
 \end{align*}
 
-But it is assumed, that only the Pythagoreans were interested in a special case that eventually led to the discovery of the \emph{incommensurable} ratios: Given that two sides \(a\) and \(b\) of the right-angled triangle have the same length, that is \(a = b\); the crucial question, again expressed in modern algebraic symbolism, must have been whether there are whole numbers \(a\) and \(c\) that satisfy the following equation:
-\begin{equation}
-    c^{2} = 2a^{2},
-\end{equation}
-fulfilling \emph{commensurability} \cite[6-7]{stillwellStoryProofLogic2022}, \cite[58]{courantWhatMathematicsElementary1996}.
-
-\todo{checking the whole document}
-\todo{checking the whole logical steps of each proof}
-\todo{Checking the explanation on the M Companion and on the AM Companion}
-
+But it is assumed, that only the Pythagoreans were interested in a special case that eventually led to the discovery of the \emph{incommensurable} ratios: Given that the two sides \(a\) and \(b\) of a right-angled triangle have the same length, that is \(a = b\), the crucial question - again expressed in modern algebraic symbolism - must have been whether there are whole numbers \(a\) and \(c\) that satisfy the following equation \(c^{2} = 2a^{2}\), that is fulfilling \emph{commensurability} \cite[6-7]{stillwellStoryProofLogic2022}, \cite[58]{courantWhatMathematicsElementary1996}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Theorem and Proof
 \section{Theorem and Proof}
 % Theorem
-\begin{theorem}
+\begin{theorem}\label{0.0}
     The square root of 2 is irrational.
 \end{theorem}
 % Proof
-\begin{proof}
-    (Contradiction) We suppose that the square root of \(2\) is rational.
+\begin{proof}\label{1.0}
+    (Contradiction) We suppose that the square root of \(2\) \((\sqrt{2} = 2^{1/2})\) is rational.
     By definition, a number belongs to the set of the rational numbers \(\mathbb{Q}\), if it can be expressed as a ratio of two integers  \(\frac{p}{q}\), where the numerator p can be any integer and the denominator q must be a non-zero integer.
 
     If the square root of \(2\) is rational, then it can be expressed as the ratio of two integers p and q, where p and q have no common factor other than \(1\):
     \begin{equation}\label{1.1}
-        \sqrt{2} = 2^{1/2} = \frac{p}{q}.
+        2^{1/2} = \frac{p}{q}.
     \end{equation}
-    Now we square both sides of the equation (\ref{1.1}). On the left-hand side (LHS) it gives:
+    Now we square both sides of the equation \ref{1.1}. On the left-hand side (LHS) it gives:
     \begin{equation}\label{1.2}
-        \left(2^{1/2}\right)^{2} = 2^{2/2} = 2 =,
+        \left(2^{1/2}\right)^{2} = 2^{2/2} = 2^{1} = 2 = ,
     \end{equation}
     whereas on the right-hand side (RHS) it gives:
     \begin{equation}\label{1.3}
@@ -97,7 +93,8 @@ fulfilling \emph{commensurability} \cite[6-7]{stillwellStoryProofLogic2022}, \ci
     \begin{equation}\label{1.5}
         p^{2} = 2q^{2}.
     \end{equation}
-    Now, by definition of an even integer, that has the form \((2 \cdot \text{an integer}\)), the RHS, i. e. \(2q^{2}\) is an even integer. It follows that also the LHS, that is \(p^{2}\) must be even. This leads us to the question of whether \(p\) is also even.
+    Now, by definition, an even integer has the form \((2 \cdot \text{an integer}\))
+    and \(2q^{2}\), having this form, is an even integer, which means that \(p^{2}\) is even. This leads us to the question of whether \(p\) is also even.
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%
     % Proof that if s^{2} is even, also s is even. 
@@ -105,18 +102,15 @@ fulfilling \emph{commensurability} \cite[6-7]{stillwellStoryProofLogic2022}, \ci
         For every integer \(s\), if \(s^{2}\) is even then \(s\) is even.
     \end{proposition}
     \begin{proof}
-        (Contrapositive) Suppose \(s\) is any odd integer. Then, by the definition of an odd integer, \(s = 2k + 1\) for some integer k. By substitution and basic algebra, we get:
-        \begin{equation}
-            s^{2} = (2k + 1)^{2} = 4k^{2} + 4k + 1 = 2(2k^{2} + 2k) + 1.
-        \end{equation}
-        If we add or multiply integers toghether, the resulting sum or product will still be an integer, i. e. the result belongs to the set of integers \(\mathbb{Z}\). This is referred to as the closure properties of addition and multiplication which hold within the set of integers. Due to these properties, the expression \(2k^{2} + 2k\) must be an integer. To simplify the notation we denote \(2k^{2} + 2k = L\). Hence, also \(s^{2} = 2 \cdot L + 1\) is an integer, and by the definition of an odd integer, \(s^{2}\) is odd. Being the contrapositive and the original statement logically equivalent, this means that the original statement - for every integer \(s\), if \(s^{2}\) is even then \(s\) is even - is true.
+        (Contrapositive) Suppose \(s\) is any odd integer. By definition, an odd integer has the form \((2 \cdot \text{an ingeter} + 1)\), so \(s = 2k + 1\) for some integer k. By substitution and basic algebra, we get: \(s^{2} = (2k + 1)^{2} = 4k^{2} + 4k + 1 = 2(2k^{2} + 2k) + 1.\)
+        If we add or multiply integers toghether, the resulting sum or product will still be an integer, i. e. the result belong to the set of integers. This is referred to as the closure properties of addition and multiplication which hold within the set of integers. Due to these properties, the expression \(2k^{2} + 2k\) must be an integer. To simplify the notation we denote as \(2k^{2} + 2k = L\). Hence, also \(s^{2} = 2 \cdot L + 1\) is an integer, and by the definition of an odd integer, \(s^{2}\) is odd. Being proposition \ref{2.1} and its contrapositive logically equivalent, this means that the original statement, that for every integer \(s\), if \(s^{2}\) is even then \(s\) is even, is indeed true.
     \end{proof}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%
-    Now we know, that also \(p\) must be even. And by definition of an even integer, we also deduce that:
+    Getting back to our theorem \ref{0.0}, now we know, that also \(p\) must be even. And by definition of an even integer, we denote \(p\) as:
     \begin{equation}\label{1.6}
         p = 2r \qquad \text{for some integer} \; r.
     \end{equation}
-    Now, by substitution, we insert into equation (\ref{1.5}) what we got in equation (\ref{1.6}), and we see that:
+    Now, by substitution, we insert the RHS of the equation \ref{1.6} into the LHS of equation \ref{1.5}, and we see that:
     \begin{equation}\label{1.7}
         p^{2} = (2r)^{2} = 4r^{2} = 2q^{2}.
     \end{equation}
@@ -124,8 +118,11 @@ fulfilling \emph{commensurability} \cite[6-7]{stillwellStoryProofLogic2022}, \ci
     \begin{equation}\label{1.8}
         2r^{2} = q^{2}.
     \end{equation}
-    As we can see, by the definition of an even integer, \(q^{2}\) is even, and by proposition (\ref{2.1}) also q is even. But earlier, we deduced from (\ref{1.5}) that \(p\) is even. And this would mean, that both \(p\) and \(q\) are even, and that they have the common factor \(2\). But this contradicts the supposition, that p and q do not have a common factor, other than 1. Hence, the supposition is false and the theorem, which states that the square root of 2 cannot be expressed as a ratio of two integers, is true, which means that it is irrational.
-    \todo{checking the formulation of the last part of the proof, i. e. the conclusion, as well as the whole proof and the references}
+    As we can see, by the definition of an even integer, \(q^{2}\) is even, and by the proof of proposition \ref{2.1}, also \(q\) must be even.
+    But earlier, we deduced from both, the equation \ref{1.5} and the proposition \ref{2.1} that \(p\) is even.
+    And this would mean, that both \(p\) and \(q\) are even, i. e. that they have the common factor \(2\).
+    But this contradicts the initial assumption that \(p\) and \(q\) of the equation \ref{1.1} had no common factor.
+    It follows that the square root of \(2\) cannot be espressed as a ratio of two integers, which means therefore that the theorem \ref{0.0} is true.
 \end{proof}
 
 
