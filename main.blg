@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[39] biber-darwin:340> INFO - === Sat Jul 13, 2024, 14:06:57
-[48] Biber.pm:419> INFO - Reading 'main.bcf'
-[93] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
-[101] Biber.pm:4419> INFO - Processing section 0
-[106] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[108] bibtex.pm:1713> INFO - LaTeX decoding ...
-[128] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[164] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[164] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[164] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[164] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[166] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[167] bbl.pm:763> INFO - Output to main.bbl
-[167] Biber.pm:131> WARN - ISBN '978-1-4419-6052-8 978-1-4419-6053-5' in entry 'stillwellMathematicsItsHistory2010' is invalid - run biber with '--validate_datamodel' for details.
-[167] Biber.pm:133> INFO - WARNINGS: 1
+[37] biber-darwin:340> INFO - === Sun Jul 14, 2024, 16:33:24
+[46] Biber.pm:419> INFO - Reading 'main.bcf'
+[91] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
+[98] Biber.pm:4419> INFO - Processing section 0
+[105] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[106] bibtex.pm:1713> INFO - LaTeX decoding ...
+[122] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[159] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[159] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[159] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[159] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[161] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[162] bbl.pm:763> INFO - Output to main.bbl
+[162] Biber.pm:131> WARN - ISBN '978-1-4419-6052-8 978-1-4419-6053-5' in entry 'stillwellMathematicsItsHistory2010' is invalid - run biber with '--validate_datamodel' for details.
+[162] Biber.pm:133> INFO - WARNINGS: 1
