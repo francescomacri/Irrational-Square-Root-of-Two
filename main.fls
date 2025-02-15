@@ -1,8 +1,8 @@
-PWD /Users/francesco/Documents/MyGitHub/PiecesOfMathematics/YYYYMMDDIrrationalSquareRoot
+PWD /Users/francesco/Documents/MyGitHub/posted_IrrationalSquareRoot
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/francesco/Documents/MyGitHub/PiecesOfMathematics/YYYYMMDDIrrationalSquareRoot/main.tex
+INPUT /Users/francesco/Documents/MyGitHub/posted_IrrationalSquareRoot/main.tex
 OUTPUT main.log
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/amscls/amsart.cls
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/amscls/amsart.cls

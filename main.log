@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.20)  14 JUL 2024 19:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.20)  15 FEB 2025 13:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/francesco/Documents/MyGitHub/PiecesOfMathematics/YYYYMMDDIrrationalSquareRoot/main.tex
-(/Users/francesco/Documents/MyGitHub/PiecesOfMathematics/YYYYMMDDIrrationalSquareRoot/main.tex
+**/Users/francesco/Documents/MyGitHub/posted_IrrationalSquareRoot/main.tex
+(/Users/francesco/Documents/MyGitHub/posted_IrrationalSquareRoot/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amscls/amsart.cls
@@ -853,7 +853,10 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 45--49
 [] 
  []
 
-[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [2] [3] [4] (./main.aux)
+
+Overfull \vbox (2.01616pt too high) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [2] [3] [4] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -866,14 +869,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  30137 strings out of 474116
- 572201 string characters out of 5743682
- 1940187 words of memory out of 5000000
+ 572138 string characters out of 5743682
+ 1941187 words of memory out of 5000000
  51848 multiletter control sequences out of 15000+600000
  574725 words of font info for 86 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 117i,12n,121p,1730b,1760s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,12n,121p,1709b,1760s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc0900.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (4 pages, 267709 bytes).
+Output written on main.pdf (4 pages, 267496 bytes).
 PDF statistics:
  181 PDF objects out of 1000 (max. 8388607)
  137 compressed objects within 2 object streams
